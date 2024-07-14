@@ -1,6 +1,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+// Function to Add Task through DOM Manipulation
 function addTask() {
   if (inputBox.value === "") {
     alert("You must write something");
